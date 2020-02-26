@@ -1,4 +1,4 @@
-#数组的创建#
+# 数组的创建
 ![](../images/array.png)
 
     import numpy as np
@@ -29,19 +29,19 @@
        						  [1., 1., 1.]])
     
 
-  # ndim属性 返回维度
+  #ndim属性 返回维度
 
     array1 = np.ones([2,3])
     array1.ndim  ==> 2
 	arry.ndim ==> 1
 
-  # shape属性 返回行列数
+  #shape属性 返回行列数
 
     arry1.shape ==> (2,3)
     #注意shape作用与一维数组返回为列数
     arrry.shape ==> (4,)
 
-  # size 数量
+  #size 数量
 
     arry.size ==> 4
 
